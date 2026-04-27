@@ -1,11 +1,113 @@
-.nav {
-    display: flex; 
-    justify-content: space-around; 
-    padding: 20px 0;                     
+body{ 
+    
+/*border: double cornflowerblue;*/
+background:#C78979; 
+color:#73344E;
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-weight: bold; 
 }
 
-.recipe-image img {
-    width: 400px;       
-    height: auto;       
-    border: 2px solid #555; 
+h1,h2,h3{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:black;
+    text-shadow: 3px 3px 3px #e98df7;
+    font-size:47px;
+    }
+p {
+    color:black;
 }
+.p2{
+    text-align: left;
+}
+
+ul{
+    color:black;
+    
+}
+
+li{
+    color:black;
+}
+ol{
+    color:black
+}
+
+.footer{
+display:flex;
+justify-content: space-around;
+position:relative;
+right:400px;
+
+}
+
+/*End of styles*/
+
+.wrapper{
+ display: flex;
+}
+
+.wrapper div {
+
+  flex: 1;
+
+}
+
+.box1{ 
+/*border: double cornflowerblue;*/
+padding:17px;
+margin:6px;
+}
+
+.box2{
+/*border: double cornflowerblue;*/
+padding:10px;
+margin:5px;
+
+
+}
+
+.box3{ 
+/*border: double cornflowerblue;*/
+padding:10px;
+margin:5px;
+position:relative;
+top:10px;
+left:150px;
+}
+    
+.box4{ 
+/*border: double cornflowerblue;*/
+padding:10px;
+margin:5px;
+
+}
+    
+.box5{
+/*border: double cornflowerblue;*/
+padding:10px;
+margin:15px;
+position:relative;
+top:-950px;
+left:990px;
+
+
+}
+
+.box6{ 
+/*border: double cornflowerblue;*/
+padding:10px;
+margin:5px;
+position:relative;
+top:-300px
+}
+
+
+
+
+
+
+
+
+
+
+
