@@ -1,0 +1,36 @@
+body {
+  background-color: rgb(107, 92, 92);
+  color: rgb(20, 19, 18);
+  font-family: "Josefin Sans", sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: "Berkshire Swash", sans-serif;
+  color: rgb(55, 55, 210);
+  text-shadow: 3px 3px 3px black;
+  font-style: oblique;
+}
+
+p {
+  color: rgb(10, 10, 0);
+}
+
+li {
+  color: rgb(0, 5, 5);
+}
+
+/* Example styling for other elements */
+ul, ol, span, figure, input, fieldset {
+  color: rgb(3, 24, 160);
+}
+.wrapper {
+
+  display: flex;
+
+}
+
+.wrapper div {
+
+  flex: 1;
+
+}
